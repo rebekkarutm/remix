@@ -32,7 +32,7 @@ export const action = async () => {
 
 // connecting the styles to the page
 export const links: LinksFunction = () => [
-  { rel: 'stylesheet', href: appStylesHref }
+  { rel: 'stylesheet', href: './app.css' }
 ]
 
 // loading all contacts as json data
