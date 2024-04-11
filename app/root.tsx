@@ -17,7 +17,7 @@ import {
 } from "@remix-run/react";
 import { useEffect } from "react";
 
-import appStylesHref from './app.css'
+import './app.css'
 import { createEmptyContact, getContacts } from "./data";
 
 // using an action function to create a new, empty, contact
